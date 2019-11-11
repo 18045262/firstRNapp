@@ -49,7 +49,7 @@ const App: () => React$Node = () => {
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Lawn food Court </Text>
-              <Text style={styles.sectionDescription}>I don't what should i write...
+              <Text style={styles.sectionDescription}>I don't what should i write.....
 
               </Text>
             </View>
