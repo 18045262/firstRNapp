@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  console.log('I am a console statement');
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -40,29 +41,28 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Welcome to C308 Web Frameworks!</Text>
-              <Text style={styles.sectionTitle}>Step One</Text>
+              <Text>Welcome to RP!</Text>
+              <Text style={styles.sectionTitle}>In the location of E6 LV1</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                <Text style={styles.highlight}>Sweet Tooth Waffles</Text> has the nice Waffle.
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
+              <Text style={styles.sectionTitle}>Lawn food Court </Text>
+              <Text style={styles.sectionDescription}>I don't what should i write...
+
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
+              <Text style={styles.sectionTitle}>South Food court</Text>
+              <Text style={styles.sectionDescription}> it is many food in the canteen.
+
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
+              <Text style={styles.sectionTitle}>More of RP food court: </Text>
               <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
+                There have 3 food court in RP.
               </Text>
             </View>
             <LearnMoreLinks />
